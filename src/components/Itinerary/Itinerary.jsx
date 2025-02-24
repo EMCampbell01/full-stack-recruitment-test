@@ -1,6 +1,6 @@
 import React from 'react';
 import Leg from '../Leg/Leg';
-import './Itinerary.css';
+import styles from './Itinerary.css';
 
 const Itinerary = ({ itineraryData }) => {
 
@@ -33,6 +33,7 @@ const Itinerary = ({ itineraryData }) => {
     }
 
     console.log('iData: ', itineraryData)
+    console.log('styles', styles)
 
     return (
         <div className="itinerary" style={itineraryStyles}>
